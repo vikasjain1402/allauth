@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load socialaccount %}
+
+{% block content-body1 %}
+
+{% for result in results %}
+<div class ='rounded mt-30' style=" border: solid red 2px;border-radius: 21px;">
+    <blockquote class="blockquote text-left">
+        <pre class="mb-0"><a href="/blog/answer/?questionid={{result.id}}"> 
+            {{result.question}}</a></pre>
+       
+    </blockquote>
+    <blockquote class="blockquote text-right">
+ 
+        <footer class="blockquote-footer">{{result.askedby}} <cite title="Source Title">{{result.questiondate}}</cite></footer>
+    </blockquote>
+ </div>   
+ 
+
+{% endfor %}
+
+
+    
+{% endblock %}
