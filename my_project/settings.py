@@ -184,10 +184,6 @@ EMAIL_PAGE_DOMAIN = 'http://localhost:8000/'
 
 
 
-GOOGLE_API_CLIENT_KEY_COR="399894155479-hc6qct1i4lr5col7lidj6hr6pmoojjfp.apps.googleusercontent.com"
-GOOGLE_API_SECRET_KEY_COR="d53J0thqnRKUTZwceCybCiU6"
-
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
